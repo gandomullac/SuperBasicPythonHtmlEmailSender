@@ -4,10 +4,10 @@ This repository contains a small but functional Python script designed to send p
 
 ## Features
 
-- Personalized Emails: Each recipient gets a personalized email with their name dynamically inserted into the HTML content.
-- Excel Mailing List: Uses an Excel file to manage the mailing list, making it easy to update and manage recipients.
-- Environment Configuration: Uses environment variables to manage SMTP server settings and email content configuration, enhancing security and flexibility.
-- HTML Email Support: Supports sending richly formatted HTML emails.
+- **Personalized Emails:** Each recipient gets a personalized email with their name dynamically inserted into the HTML content.
+- **Excel Mailing List:** Uses an Excel file to manage the mailing list, making it easy to update and manage recipients.
+- **Environment Configuration:** Uses environment variables to manage SMTP server settings and email content configuration, enhancing security and flexibility.
+- **HTML Email Support:** Supports sending richly formatted HTML emails.
 
 ## Prerequisites
 - Python 3.x
@@ -29,7 +29,7 @@ cd email-sender-script
 pip install pandas openpyxl python-dotenv
 ```
 
-3. Create a .env file in the project directory and populate it with your SMTP server details and email settings (there is a handy `.env.example` you can use):
+3. Create a .env file in the project directory and populate it with your SMTP server details and email settings (there is a handy `.env.example` file you can use):
 
 ```env
 SMTP_SERVER=smtp.yourserver.com
